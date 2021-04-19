@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "나의 기술블로그"
+title                    : "최오성의 기술블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "최오성"
 description              : "An amazing website."
 url                      : "https://osung-choi.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
