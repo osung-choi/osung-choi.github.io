@@ -1,4 +1,7 @@
-# 3장, 최대한 플랫폼 타입을 사용하지 말라
+---
+layout: single
+title: [Effective Kotlin] 3장, 최대한 플랫폼 타입을 사용하지 말라
+---
 
 _플랫폼 타입 (Platform type) : 다른 프로그래밍 언어에서 전달되어서 nullable 인지 아닌지 알 수 없는 타입._
 
