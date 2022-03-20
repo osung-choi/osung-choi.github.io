@@ -1,7 +1,10 @@
 ---
 layout: single
-title: [Effective Kotlin] 3장, 최대한 플랫폼 타입을 사용하지 말라
+title: 3장, 최대한 플랫폼 타입을 사용하지 말라
 ---
+
+[이펙티브 코틀린](https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bktE&pkid=476&os=25673819&qvt=0&query=이펙티브%20코틀린%20기본정보) 을 읽고 정리한 내용입니다.
+
 
 _플랫폼 타입 (Platform type) : 다른 프로그래밍 언어에서 전달되어서 nullable 인지 아닌지 알 수 없는 타입._
 
