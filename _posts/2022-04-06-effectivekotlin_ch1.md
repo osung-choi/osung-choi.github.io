@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Effective Kotlin 1장, 안정성
 ---
 
