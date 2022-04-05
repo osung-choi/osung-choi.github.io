@@ -73,16 +73,16 @@ User User? //Nullable User
 ```java
 //Java
 public class JavaClass {
- public String getValue() {
-  return null
- }
+  public String getValue() {
+    return null
+  }
 }
 ```
 
 ```kotlin
 fun statedType() {
- val value = JavaClass().value //String! (String platform Type)
- println(value.length) //NPE
+  val value = JavaClass().value //String! (String platform Type)
+  println(value.length) //NPE
 }
 ```
 
@@ -103,8 +103,8 @@ open class Animal
 class Zebra: Animal()
 
 fun main() {
- var animal = Zebra()
- animal = Animal() // Error: Type mismatch
+  var animal = Zebra()
+  animal = Animal() // Error: Type mismatch
 }
 ```
 
@@ -171,8 +171,8 @@ Result와 같은 sealed class를 리턴하는 경우, when 표현식을 사용�
 
 ```kotlin
 val age = when(person) {
- is Success -> preson.age
- is Failure -> -1
+  is Success -> preson.age
+  is Failure -> -1
 }
 ```
 
@@ -211,9 +211,9 @@ null의 존재가 반드시 필요한 경우가 아니라면 nullability 자체�
 
 ```kotlin
 fun countCharactersInFile(path: String): Int {
- BufferedReader(FileReader(path)).use { lines ->
-  return lines.sumBy { it.length }
- }
+  BufferedReader(FileReader(path)).use { lines ->
+    return lines.sumBy { it.length }
+  }
 }
 ```
 
